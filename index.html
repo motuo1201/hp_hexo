@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>Welcome to BMXUG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  
+  <meta name="description" content="IBM Cloudに関するイベントの情報やコミュニティ支部についての情報を載せています。">
+<meta name="keywords" content="IBM Cloud">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Welcome to BMXUG">
+<meta property="og:url" content="https://motuo1201.github.io/hp_hexo/index.html">
+<meta property="og:site_name" content="Welcome to BMXUG">
+<meta property="og:description" content="IBM Cloudに関するイベントの情報やコミュニティ支部についての情報を載せています。">
+<meta property="og:locale" content="ja">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Welcome to BMXUG">
+<meta name="twitter:description" content="IBM Cloudに関するイベントの情報やコミュニティ支部についての情報を載せています。">
+  
+    <link rel="alternate" href="/atom.xml" title="Welcome to BMXUG" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/hp_hexo/css/images/bmxug-logo.png">
+  <link rel="apple-touch-icon" href="/hp_hexo/css/images/bmxug-logo.png">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+  <link rel="stylesheet" href="/hp_hexo/css/style.css">
+
+  <script src="/hp_hexo/js/jquery-3.1.1.min.js"></script>
+  <script src="/hp_hexo/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/hp_hexo/css/bootstrap.css">
+
+  
+    <link rel="stylesheet" href="/hp_hexo/css/home.css">
+  
+
+  
+
+  
+
+  
+  
+  
+
+</head>
+</html>
+
+
+  <body>
+
+
+  
+    <header id="header">
+
+	<!-- 背景图模式 -->
+	
+
+    
+      <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
+
+      <!-- Support rolling -->  
+        <!-- Don't rolling -->
+        <script>
+            var imgUrls = "css/images/home-bg.jpg".split(",");
+            var random = Math.floor((Math.random() * imgUrls.length ));
+            if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+              document.getElementById("intrologo").style.backgroundImage='url(' + imgUrls[random] + ')';
+            } else {
+              document.getElementById("intrologo").style.backgroundImage='url(/hp_hexo/' + imgUrls[random] + ')';
+            }
+        </script>
+      
+
+    
+ 
+
+
+    <canvas width="100%" height="100%"></canvas>
+    <script>
+      var c = document.getElementsByTagName('canvas')[0],
+          x = c.getContext('2d'),
+          w = window.innerWidth,
+          h = window.innerHeight,
+          pr = window.devicePixelRatio || 1,
+          f = 90,
+          q,
+          m = Math,
+          r = 0,
+          u = m.PI*2,
+          v = m.cos,
+          z = m.random
+      c.width = w*pr
+      c.height = h*pr
+      x.scale(pr, pr)
+      x.globalAlpha = 0.6
+
+      <!-- 折线Polyline背景 -->
+      
+    </script>
+    
+
+    
+      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
+    
+
+        
+          <div class="homelogoback" style="border: 1px solid #404040;">
+            <h1><a href="#content" id="logo">Welcome to BMXUG</a></h1>
+            <h3>IBM Cloudに関するイベントの情報やコミュニティ支部についての情報を載せています。</h3>
+            <h5>Bluemix User Group</h5>
+            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
+          </div>
+        
+    
+    </div>
+  </div>
+
+  <!-- 自适应主页背景大图 -->
+  
+    <script>
+        var img = new Image();
+        var intrologodiv = document.getElementById("intrologo");
+        img.src = intrologodiv.style.backgroundImage.replace('url(','').replace(')','').replace(/\"/gi, "");
+        img.onload=function(){
+          if (img.width / img.height <= document.body.clientWidth / document.body.clientHeight) {
+            intrologodiv.style.backgroundSize = "100% auto";
+          } else {
+            intrologodiv.style.backgroundSize = "auto 100%";
+          }
+        };
+    </script>
+ 
+
+ <!-- home_logo_image居中 -->
+ 
+    <script>
+        var homelogodiv = document.getElementById("homelogo");
+        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
+          homelogodiv.style.width = document.body.clientWidth + "px";
+          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
+        } else {
+          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
+          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
+        }
+    </script>
+  
+
+  <div class="intro-navigate">
+      <p class="navigater-list">
+        
+          <a id="beautifont" class="main-nav-link" href="/hp_hexo/">Home</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/hp_hexo/archives">Archives</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/hp_hexo/branches">支部紹介</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/hp_hexo/About">About</a>
+        
+      </p>
+  </div>
+
+</header>
+  
+  <div id="container">
+    <div id="wrap">
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;">
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/hp_hexo/2019/02/07/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/hp_hexo/2019/02/07/hello-world/" class="article-date">
+	  <time datetime="2019-02-07T03:52:23.697Z" itemprop="datePublished">2019-02-07</time>
+	</a>
+
+      
+      
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new "My New Post...
+        </p>
+        <p class="article-more-link">
+          <a href="/hp_hexo/2019/02/07/hello-world/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+
+  
+    <article id="post-Welcome-to-BMXUG-tokyo" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/hp_hexo/2019/02/06/Welcome-to-BMXUG-tokyo/">Welcome to BMXUG.tokyo</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/hp_hexo/2019/02/06/Welcome-to-BMXUG-tokyo/" class="article-date">
+	  <time datetime="2019-02-06T07:02:54.000Z" itemprop="datePublished">2019-02-06</time>
+	</a>
+
+      
+      
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          始めにこんにちは世界。
+123&lt;?php//code blockも書けます。echo ('hello world!');
+        </p>
+        <p class="article-more-link">
+          <a href="/hp_hexo/2019/02/06/Welcome-to-BMXUG-tokyo/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+
+  
+
+
+</section>
+        
+      </div>
+      
+        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2019 - 2019 Bluemix User Group All Rights Reserved.</p>
+	      
+	      
+  		   	<p id="copyRightCn">Bluemix User Group hold copyright</p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/hp_hexo/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hp_hexo/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hp_hexo/branches" class="mobile-nav-link">支部紹介</a>
+  
+    <a href="/hp_hexo/About" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/hp_hexo/fancybox/jquery.fancybox.css">
+  <script src="/hp_hexo/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/hp_hexo/js/scripts.js"></script>
+
+
+  <script src="/hp_hexo/js/home.js"></script>
+
+
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              背景を白くする
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            背景を白くする
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              Nightモード
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            Nightモードになっています
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">このサイトについて</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Welcome to BMXUG
+          </div>
+          <div class="panel-body">
+            Copyright © 2019 Bluemix User Group All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/hp_hexo/js/totop.js?v=1.0.0" async=""></script>
+  
+</body>
+</html>
