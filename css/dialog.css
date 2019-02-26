@@ -12,7 +12,7 @@
 }
 .modal-title {
 	color: #000;
-    font-family: "黑体",Sans-Serif;
+    font-family: "M PLUS 1p",Sans-Serif;
     text-align: center;
     font-weight: bold;
 }
@@ -53,6 +53,6 @@
 	padding-bottom: 80px;
 }
 .panel-body {
-	font-family: "楷体", "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+	font-family: "M PLUS 1p", "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   	color:#333;
 }

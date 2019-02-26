@@ -87,7 +87,7 @@ html{
     transition: background 2s;
 }
 .navigater-list{
-	font-family: "Microsoft YaHei","微软雅黑",Arial,simsun,"宋体";
+	font-family: "M PLUS 1p","Microsoft YaHei",Arial,simsun;
 	color:#444444;
 	font-weight: 100;
 	font-size: 1.2em;
@@ -198,7 +198,7 @@ h3 {
     left: 3px;
 }
 #beautifont{
-	font-family: Microsoft JhengHei,Roboto,Helvetica,Arial,sans-serif;
+	font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif,Microsoft JhengHei,Roboto,Helvetica,Arial,sans-serif;
 }
 canvas {
     top: 0;

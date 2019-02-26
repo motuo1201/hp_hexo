@@ -111,7 +111,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 @font-face {
-  font-family: "微软雅黑";
+  font-family: "M PLUS 1p";
   font-style: normal;
   font-weight: normal;
   src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #fff;
-  font: 14px Arial, "open sans", "Helvetica Neue", Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+  font: 14px "游ゴシック体", YuGothic, "YuGothic M", Arial, "open sans", "Helvetica Neue", Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
 }
@@ -609,7 +609,7 @@ body {
   height: 88px;
   line-height: 86px;
   text-transform: capitalize;
-  font-family: "华文中宋", serif;
+  font-family: "M PLUS 1p", serif;
   font-weight: bold;
   font-size: 27px;
   letter-spacing: 0.2px;
@@ -753,7 +753,7 @@ body {
 .article-inner .h4,
 .article-inner .h5,
 .article-inner .h6 {
-  font-family: Arial, "Hiragino Sans GB", "Microsoft YaHei Light", "微软雅黑", SimSun, "宋体", Helvetica, Tahoma, "Arial sans-serif";
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", Arial, "open sans", "Helvetica Neue", Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
 }
 .article-meta {
   text-align: center;
@@ -882,7 +882,7 @@ body {
 .article-header h1 {
   font-size: 25px;
   font-weight: bold;
-  font-family: Arial, "Hiragino Sans GB", "Microsoft YaHei Light", "微软雅黑", SimSun, "宋体", Helvetica, Tahoma, "Arial sans-serif";
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", Arial, "open sans", "Helvetica Neue", Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
 }
 @media screen and (max-width: 479px) {
   .article-header h1 {
@@ -996,7 +996,7 @@ a.article-title:hover {
 }
 .article-entry blockquote {
   padding: 0.1px 20px;
-  font-family: Arial, "open sans", "Helvetica Neue", Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", Arial, "open sans", "Helvetica Neue", Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
   font-size: 1.1em;
   color: rgba(44,44,44,0.6);
   margin: 1.4em 0px;
@@ -1441,7 +1441,7 @@ a.article-title:hover {
   color: #fb6d19;
 }
 .nav-link {
-  font-family: 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Microsoft Yahei Light', 'STHeitiSC-Light', 'Arial', sans-serif;
+  font-family: "M PLUS 1p", 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Microsoft Yahei Light', 'STHeitiSC-Light', 'Arial', sans-serif;
   color: #777;
   padding: 1px !important;
 }
@@ -1640,7 +1640,7 @@ a.article-title:hover {
   margin-right: 15px;
   display: block;
   font-size: 1.1em;
-  font-family: "futura-pt", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", "futura-pt", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
 }
 .archive-article-date:hover {
   color: #fb6d19;
@@ -1752,7 +1752,7 @@ figure.highlight::-webkit-scrollbar-track {
 }
 .article-entry pre,
 .article-entry code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
   white-space: normal;
@@ -1826,7 +1826,7 @@ figure.highlight::-webkit-scrollbar-track {
 }
 .article-entry .gist .gist-file {
   border: none;
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   margin: 0;
 }
 .article-entry .gist .gist-file .gist-data {
