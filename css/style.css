@@ -753,7 +753,7 @@ body {
 .article-inner .h4,
 .article-inner .h5,
 .article-inner .h6 {
-  font-family: "游ゴシック体", YuGothic, "YuGothic M", Arial, "open sans", "Helvetica Neue", Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .article-meta {
   text-align: center;
@@ -882,7 +882,7 @@ body {
 .article-header h1 {
   font-size: 25px;
   font-weight: bold;
-  font-family: "游ゴシック体", YuGothic, "YuGothic M", Arial, "open sans", "Helvetica Neue", Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 @media screen and (max-width: 479px) {
   .article-header h1 {
@@ -1640,7 +1640,7 @@ a.article-title:hover {
   margin-right: 15px;
   display: block;
   font-size: 1.1em;
-  font-family: "游ゴシック体", YuGothic, "YuGothic M", "futura-pt", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .archive-article-date:hover {
   color: #fb6d19;
