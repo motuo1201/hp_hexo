@@ -1752,7 +1752,7 @@ figure.highlight::-webkit-scrollbar-track {
 }
 .article-entry pre,
 .article-entry code {
-  font-family: "游ゴシック体", YuGothic, "YuGothic M", "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .article-entry code {
   white-space: normal;
@@ -1826,7 +1826,7 @@ figure.highlight::-webkit-scrollbar-track {
 }
 .article-entry .gist .gist-file {
   border: none;
-  font-family: "游ゴシック体", YuGothic, "YuGothic M", "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
 }
 .article-entry .gist .gist-file .gist-data {
