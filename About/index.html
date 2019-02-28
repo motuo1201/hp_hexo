@@ -13,7 +13,7 @@
 <meta name="keywords" content="IBM Cloud">
 <meta property="og:type" content="website">
 <meta property="og:title" content="BMXUG(Bluemix User Group)について">
-<meta property="og:url" content="https://motuo1201.github.io/hp_hexo/About/index.html">
+<meta property="og:url" content="https://motuo1201.github.io/hp_hexo/about/index.html">
 <meta property="og:site_name" content="Welcome to BMXUG">
 <meta property="og:description" content="グループの説明理念Bluemix User Group は、IBMのクラウドプラットフォームである Bluemix を広く学び教え合うためのコミュニティです。これからBluemixを学ぶエンジニアから既に達人まで多くの人に参加していただきBluemixの魅力、楽しさを共有して行きたいです。まだまだこれからのBluemixなので初心者のかたも、Bluemixってなんだろうという方も是非勉強会に参加し">
 <meta property="og:locale" content="ja">
@@ -98,11 +98,13 @@
                 
                   <li> <a class="main-nav-link" href="/hp_hexo/">Home</a> </li>
                 
-                  <li> <a class="main-nav-link" href="/hp_hexo/archives">Archives</a> </li>
+                  <li> <a class="main-nav-link" href="https://bmxug.connpass.com/#upcoming_events_list">イベント(conpass)</a> </li>
                 
                   <li> <a class="main-nav-link" href="/hp_hexo/branches">支部紹介</a> </li>
                 
-                  <li> <a class="main-nav-link" href="/hp_hexo/About">About</a> </li>
+                  <li> <a class="main-nav-link" href="/hp_hexo/archives">Archives</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/hp_hexo/about">About</a> </li>
                 
                   <li><div id="search-form-wrap">
 
@@ -116,6 +118,56 @@
     </div>
 
 </header>
+
+
+
+  
+    <section class="awSlider">
+      <div class="carousel slide carousel-fade " data-ride="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+           
+              
+                <div class="item active" style="max-height:600px; overflow: hidden;">
+              
+                <img id="carousel-img0" src="/hp_hexo/css/images/home-bg.jpg">
+              </div>
+
+              <!-- 自适应大图 -->
+              <script>
+              	  var carouselResize = function() {
+              	  	  var h = document.body.clientHeight / 3;
+	                  var img0 = new Image();
+	                  var imageTag0 = document.getElementById("carousel-img0");
+	                  img0.src = imageTag0.src;
+	                  img0.onload=function(){
+	                    if (img0.width / img0.height <= document.body.clientWidth / h) {
+	                      imageTag0.style.width = document.body.clientWidth + "px";
+	                    } else {
+	                      imageTag0.style.height = h + "px";
+	                      imageTag0.style.marginLeft = -(h * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
+	                    }
+	                  };
+              	  };
+                  carouselResize();
+              </script>
+            
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Geri</span>
+        </a>
+        <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">İleri</span>
+        </a>
+      </div>
+    </section>
+    
+  
 
 
 
@@ -139,10 +191,6 @@
     
     <div class="article-meta">
       
-	<a href="/hp_hexo/About/index.html" class="article-date">
-	  <time datetime="2019-02-25T01:24:45.000Z" itemprop="datePublished">2019-02-25</time>
-	</a>
-
       
       
       
@@ -168,7 +216,7 @@
           </li>
           <li class="post-copyright-link">
           <strong>Post link:  </strong>
-          <a href="/hp_hexo/About/index.html" target="_blank" title="BMXUG(Bluemix User Group)について">https://motuo1201.github.io/hp_hexo/About/index.html</a>
+          <a href="/hp_hexo/about/index.html" target="_blank" title="BMXUG(Bluemix User Group)について">https://motuo1201.github.io/hp_hexo/about/index.html</a>
           </li>
           <li class="post-copyright-license">
             <strong>Copyright Notice:   </strong>
@@ -233,11 +281,13 @@
   
     <a href="/hp_hexo/" class="mobile-nav-link">Home</a>
   
-    <a href="/hp_hexo/archives" class="mobile-nav-link">Archives</a>
+    <a href="https://bmxug.connpass.com/#upcoming_events_list" class="mobile-nav-link">イベント(conpass)</a>
   
     <a href="/hp_hexo/branches" class="mobile-nav-link">支部紹介</a>
   
-    <a href="/hp_hexo/About" class="mobile-nav-link">About</a>
+    <a href="/hp_hexo/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hp_hexo/about" class="mobile-nav-link">About</a>
   
 </nav> -->
     
